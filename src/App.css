@@ -1,3 +1,60 @@
+* {
+  font-family: Raleway;
+}
+
 .is-active{
-  color: blue;
+  color: #93B7BE;
+}
+
+.App {
+    padding: 30px;
+    text-align: center;
+}
+
+canvas.chartjs-render-monitor#myChart {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 auto;
+}
+
+
+
+.all-charts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+Header h1 {
+  margin: 0px;
+}
+
+Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #554348;
+  align-items: baseline;
+  padding-bottom: 1.2rem;
+}
+
+a {
+  color: #747578;
+  padding: 0px;
+}
+
+a:hover {
+  color: #93B7BE;
+}
+
+.two-chart-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.address {
+  cursor: pointer;
 }
